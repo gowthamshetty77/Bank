@@ -1,0 +1,162 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Remove.png");
+    background-size:cover;
+    background-position: center;
+    
+}
+#heading{
+	
+	position: fixed;
+	top:50px;
+	text-align: center;
+	color: wheat;
+}
+.container{ 
+    height: 80%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+     
+ 
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.container form{
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.container label{
+    margin-bottom: 5px;
+}
+.container input{
+    padding: 6px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+
+
+#button{
+   
+    position: fixed;
+    top:10px;
+    right: 10px;
+    padding: 6px;
+}
+#button button{
+    height: 30px;
+    width: 75px;
+    border-radius: 4px;
+    background-color: rgb(225, 225, 225,0.5);
+    border: 1px solid  rgb(198, 25, 25);
+    color: rgb(198, 25, 25);
+    cursor: pointer;
+
+}
+
+#button :hover{
+    color: white;
+    background-color:  rgb(198, 25, 25);
+}
+#submit{
+    margin-top: 15px;
+    background-color: rgb(94, 103, 103);
+}
+#submit:hover{
+    background-color: rgb(95, 112, 109);
+}
+
+
+
+
+.body table{
+	width:100%;
+	border-collapse: collapse;
+}
+
+
+.body{
+    height: 85%;
+    width: 95%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;/*dont use align-items:center becuse it align to whole table to center and extra row at the bottom get scroll but rows at top will be croped*/
+    overflow: auto;
+
+
+}
+.body td{
+	padding: 15px;
+	text-align: center;
+}
+#heading{
+position: fixed;
+top:20px;
+color: wheat;
+}	
+.body form{
+	 height: 30px;
+    width: 75px;
+}
+#remove{
+	padding: 6px;
+	height: 30px;
+    width: 75px;
+    border-radius: 4px;
+    background-color: rgb(225, 225, 225,0.5);
+    border: 1px solid  rgb(198, 25, 25);
+    color: rgb(198, 25, 25);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#remove:hover{
+    color: white;
+    background-color:  rgb(198, 25, 25);
+}
+#head{
+	position:sticky;
+	top:0px;
+	background-color: rgb(225, 225, 225,0.5);
+	backdrop-filter: blur(50px);
+	padding: 10px;
+	
+	
+}
+#head th{
+	padding: 15px;
+	margin-bottom:15px;
+	text-align: center;
+	
+	padding:15px;
+	
+	
+}

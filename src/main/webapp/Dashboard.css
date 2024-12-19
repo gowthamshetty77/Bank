@@ -1,0 +1,27 @@
+#carouselExampleCaptions {
+    max-height: 500px; 
+    overflow: hidden; 
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    height: 500px; 
+}
+#footer {
+    background-color: #212529;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 1px;
+  
+    
+}
+#footer span{
+    color: white;
+}
+
+#footer i{
+    color: white;
+}
+.nav-item a{
+    color: white;
+}

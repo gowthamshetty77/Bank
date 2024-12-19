@@ -1,0 +1,117 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Passbook5.png");
+    background-size:cover;
+    
+    background-position: center;
+    
+}
+
+.container{ 
+    height: 80%;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+     
+    position: fixed;
+    left: 25px;
+    padding-top: 20px;
+}
+
+
+#button{
+   
+    position: fixed;
+    top:10px;
+    right: 10px;
+    padding: 6px;
+}
+#button button{
+    height: 30px;
+    width: 75px;
+    border-radius: 4px;
+    background-color: rgb(225, 225, 225,0.5);
+    border: 1px solid  rgb(198, 25, 25);
+    color: rgb(198, 25, 25);
+
+}
+
+#button button:hover{
+    color: white;
+    background-color:  rgb(198, 25, 25);
+}
+#submit{
+    background-color: rgb(56, 110, 99);
+}
+#submit:hover{
+    background-color: rgb(85, 152, 140);
+}
+
+
+
+
+
+.body table{
+	width:100%;
+	border-collapse: collapse;
+}
+
+
+.body{
+    height: 95%;
+    width: 95%;
+    margin-top:30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;/*dont use align-items:center becuse it align to whole table to center and extra row at the bottom get scroll but rows at top will be croped*/
+    overflow: auto;
+
+
+}
+.body td{
+	padding: 15px;
+	text-align: center;
+}
+#heading{
+position: fixed;
+top:20px;
+color: wheat;
+}
+#head{
+	position:sticky;
+	top:0px;
+	background-color: rgb(225, 225, 225,0.5);
+	backdrop-filter: blur(50px);
+	padding: 10px;
+	
+	
+}
+#head th{
+	
+	padding:15px;
+	
+	
+}
+	
+
+

@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("update.png");
+    background-size:cover;
+    background-position: center;
+    
+}
+.container{ 
+    height: 70%;
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    
+   
+    
+    
+}
+.container h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.container h3{
+    text-align: center;
+    margin-top: 15px;
+}
+.container form{
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.container label{
+    margin-bottom: 5px;
+}
+.container input{
+    padding: 6px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+#submit{
+
+}
+
+
+#button{
+   
+    position: fixed;
+    top:10px;
+    right: 10px;
+    padding: 6px;
+}
+#button button{
+    height: 30px;
+    width: 75px;
+    border-radius: 4px;
+    background-color: rgb(225, 225, 225,0.5);
+    border: 1px solid  rgb(198, 25, 25);
+    color: rgb(198, 25, 25);
+
+}
+
+#button button:hover{
+    color: white;
+    background-color:  rgb(198, 25, 25);
+}
+#submit{
+    margin-top: 15px;
+    background-color: rgb(94, 103, 103);
+}
+#submit:hover{
+    background-color: rgb(95, 112, 109);
+}
+#success{
+	color: green;
+}
+#failure{
+	color:red;
+}
+
+
+

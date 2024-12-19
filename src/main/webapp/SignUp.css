@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #2d2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{ 
+    height: 80%;
+    width: 75%;
+    background-color: #080808; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    overflow: hidden;
+    
+}
+
+.img-container {
+    height: 90%;
+    width: 100%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    background-image: url("SignUp.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center; 
+    color: #2d2b2b;
+}
+.img-container h2{
+    margin-top: 50px;
+}
+.img-container h3{
+    margin-top: 70px;
+}
+
+.form-contaier{
+    height: 100%;
+    width: 75%;
+    color: wheat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.form-contaier h2{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.form-contaier form{
+    height: 100%;
+    width: 80%;
+    display:flex;
+    flex-direction: column; 
+
+}
+.form-contaier label{
+    margin-bottom: 4px;
+}
+.form-contaier input{
+
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+#submit{
+    margin-top: 5px;
+    background-color: rgb(184, 160, 115);
+    color: white;
+}
+#submit:hover{
+    background-color:  rgb(140, 121, 85);
+}
+#success{
+	margin-bottom:10px;
+	color: green;
+}
+#failure{
+	margin-bottom:10px;
+	color:red;
+}
+
+
+
+
